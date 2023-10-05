@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up / Sign In</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Apply CSS for the image */
+        #topRightImage {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        #bottomLeftImage {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+        /* CSS for the container */
+        .container {
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container-fluid h-100">
+        <div class="row h-100">
+            <!-- Left Side: Sign Up Form -->
+            <div class="col-lg-6 col-md-6 col-sm-12 bg-primary text-white">
+                <div class="d-flex flex-column justify-content-center align-items-center h-100 p-4">
+                    <img src="C:\Users\Dua Zahra\Desktop\BSSE-V\Web Engineering Lab\Quiz3\assests\SignUp.png" alt="Sign Up">
+                   
+                    </form>
+                </div>
+            </div>
+
+            <!-- Right Side: Sign In Form -->
+            <div class="col-lg-6 col-md-6 col-sm-12 bg-secondary text-white">
+                <div class="d-flex flex-column justify-content-center align-items-center h-100 p-4">
+                    
+                    <form>
+                        <img src="C:\Users\Dua Zahra\Desktop\BSSE-V\Web Engineering Lab\Quiz3\assests\Group21.png" alt="Image in Top Right Corner" id="topRightImage">
+    
+                         <h1>Sign Up</h1>
+                        <p>Get Started absolutely free</p>
+                        <form>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="text" class="form-control" id="email" name="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password:</label>
+                                <input type="password" class="form-control" id="password" name="password">
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="terms" name="terms" value="terms">
+                                <label class="form-check-label" for="terms">Creating an account means you are okay with our Terms of Service, Privacy Policy, and default Notification settings</label>
+                            </div>
+                            <button type="button" class="btn btn-light" id="switchToSignIn">Sign In</button>
+                            
+                            <img src="C:\Users\Dua Zahra\Desktop\BSSE-V\Web Engineering Lab\Quiz3\assests\Group21.png" alt="Image in bottom left Corner" id="bottomLeftImage">
+
+                    </form>
+                </div>
+    </div>
+        </div>
+    </div>
+    
+    
+
+    
+</body>
+</html>
